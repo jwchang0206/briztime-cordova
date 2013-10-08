@@ -13,6 +13,5 @@ dump.rdb
 *.orig
 *.xcodeproj/*
 CordovaLib/*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
 /build
 www
