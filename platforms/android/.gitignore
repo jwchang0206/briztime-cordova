@@ -1,0 +1,17 @@
+*.db
+.DS_Store
+.project
+.metadata
+*.tmproj
+*.sublime-project
+dump.rdb
+*.log
+*.orig
+bin
+bin/*
+gen
+gen/*
+*.ap?
+*.class
+*.dex
+assets/www
