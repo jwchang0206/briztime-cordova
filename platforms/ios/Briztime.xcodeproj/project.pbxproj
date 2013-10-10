@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08E35A8F518A4C0E8BD1F216 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A568028E504376AC80C0BD /* CDVDevice.m */; };
 		1660BB1F1803EA3500A1E54D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1660BB1E1803EA3500A1E54D /* FacebookSDK.framework */; };
+		16A7AFCC1806E06100A271D3 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A7AFCB1806E06100A271D3 /* FacebookConnectPlugin.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -66,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		1660BB1E1803EA3500A1E54D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		16A7AFCA1806E06100A271D3 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookConnectPlugin.h; sourceTree = "<group>"; };
+		16A7AFCB1806E06100A271D3 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookConnectPlugin.m; sourceTree = "<group>"; };
 		17A568028E504376AC80C0BD /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 		1660BB1D1803E9F500A1E54D /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				16A7AFCA1806E06100A271D3 /* FacebookConnectPlugin.h */,
+				16A7AFCB1806E06100A271D3 /* FacebookConnectPlugin.m */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 				3F2E134E90F54896AB0BCB71 /* CDVSound.m in Sources */,
 				DD1F8C3C59714F969596AE94 /* CDVNotification.m in Sources */,
 				8185C10F3A5E4D93BCD1139F /* CDVVibration.m in Sources */,
+				16A7AFCC1806E06100A271D3 /* FacebookConnectPlugin.m in Sources */,
 				E3FF6710D6BD47A0B6E47607 /* CDVSplashScreen.m in Sources */,
 				39A29D185A1C44B6B7D5D328 /* CDVConnection.m in Sources */,
 				7DE0A40FF3514EF8AE8DFB99 /* CDVReachability.m in Sources */,
