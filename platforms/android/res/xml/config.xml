@@ -15,6 +15,7 @@
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="fullscreen" value="false" />
+    <preference name="KeyboardShrinksView" value="true" />
     <preference name="webviewbounce" value="true" />
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
