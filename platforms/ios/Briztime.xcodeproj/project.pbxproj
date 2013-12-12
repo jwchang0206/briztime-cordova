@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		08E35A8F518A4C0E8BD1F216 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A568028E504376AC80C0BD /* CDVDevice.m */; };
 		1660BB1F1803EA3500A1E54D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1660BB1E1803EA3500A1E54D /* FacebookSDK.framework */; };
@@ -32,13 +31,10 @@
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		39A29D185A1C44B6B7D5D328 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DEA18005534F4ABAE6F489 /* CDVConnection.m */; };
-		3F2E134E90F54896AB0BCB71 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0A43B550344332970E0DF7 /* CDVSound.m */; };
-		50D29C17D7224A559B1A4556 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A83D4A36614A0CA235C07C /* CDVLocation.m */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		7DE0A40FF3514EF8AE8DFB99 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF927C1D6744EC4AE01CF92 /* CDVReachability.m */; };
 		859F6FB482B84655B325C859 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7A56796F94A13BD89EE2F /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BCC165B3F7B54C448523A513 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DA69FDF49C4CE69F0D29D5 /* CDVGlobalization.m */; };
 		C7787C945EBE4E25A9F426A7 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5555E0E725C847FBA8EE62E8 /* CDVNotification.bundle */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		DD1F8C3C59714F969596AE94 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F75765C0644E477BA1FF8678 /* CDVNotification.m */; };
@@ -446,9 +442,6 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				08E35A8F518A4C0E8BD1F216 /* CDVDevice.m in Sources */,
-				50D29C17D7224A559B1A4556 /* CDVLocation.m in Sources */,
-				BCC165B3F7B54C448523A513 /* CDVGlobalization.m in Sources */,
-				3F2E134E90F54896AB0BCB71 /* CDVSound.m in Sources */,
 				DD1F8C3C59714F969596AE94 /* CDVNotification.m in Sources */,
 				16A7AFCC1806E06100A271D3 /* FacebookConnectPlugin.m in Sources */,
 				39A29D185A1C44B6B7D5D328 /* CDVConnection.m in Sources */,
