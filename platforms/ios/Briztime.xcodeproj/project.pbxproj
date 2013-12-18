@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		08E35A8F518A4C0E8BD1F216 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A568028E504376AC80C0BD /* CDVDevice.m */; };
 		1660BB1F1803EA3500A1E54D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1660BB1E1803EA3500A1E54D /* FacebookSDK.framework */; };
